@@ -147,13 +147,13 @@ export default function HowItWorks() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a
-              href="#pricing"
+              href="/pricing"
               className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl bg-gradient-to-r from-emerald-600 to-emerald-500 text-white font-semibold text-sm shadow-lg shadow-emerald-500/25 hover:shadow-emerald-500/40 hover:-translate-y-0.5 transition-all"
             >
               Start Free Trial — No Card Required
             </a>
             <a
-              href="#contact"
+              href="/contact"
               className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl border border-white/15 text-slate-300 font-semibold text-sm hover:bg-white/05 hover:text-white transition-all"
             >
               Talk to our team

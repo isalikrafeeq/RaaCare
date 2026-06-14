@@ -127,7 +127,7 @@ export default function FAQ() {
           </h2>
           <p className="text-lg text-slate-400">
             Can&apos;t find your answer?{" "}
-            <a href="#contact" className="text-emerald-400 hover:text-emerald-300 underline underline-offset-2">
+            <a href="/contact" className="text-emerald-400 hover:text-emerald-300 underline underline-offset-2">
               Talk to our team
             </a>
             .

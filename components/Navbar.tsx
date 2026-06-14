@@ -6,11 +6,11 @@ import { Shield, Menu, X, ChevronRight } from "lucide-react";
 import Button from "./ui/Button";
 
 const navLinks = [
-  { label: "Features", href: "#features" },
-  { label: "Dashboard", href: "#dashboard" },
-  { label: "How It Works", href: "#how-it-works" },
-  { label: "Pricing", href: "#pricing" },
-  { label: "FAQ", href: "#faq" },
+  { label: "Features", href: "/features" },
+  { label: "How It Works", href: "/how-it-works" },
+  { label: "Pricing", href: "/pricing" },
+  { label: "FAQ", href: "/faq" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export default function Navbar() {
@@ -66,7 +66,7 @@ export default function Navbar() {
             {/* CTA */}
             <div className="hidden md:flex items-center gap-3">
               <a
-                href="#contact"
+                href="/contact"
                 className="text-sm font-medium text-slate-400 hover:text-white transition-colors"
               >
                 Log in
