@@ -109,7 +109,7 @@ export default function DashboardShowcase() {
               </div>
 
               {/* Stats row */}
-              <div className="grid grid-cols-4 gap-2 mb-6">
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 mb-6">
                 {[
                   { icon: Droplets, val: "112", unit: "mg/dL", label: "Glucose", color: "text-emerald-400", bg: "bg-emerald-500/10", trend: TrendingDown, trendColor: "text-emerald-400" },
                   { icon: Heart, val: "74", unit: "bpm", label: "Heart rate", color: "text-rose-400", bg: "bg-rose-500/10", trend: TrendingUp, trendColor: "text-slate-500" },
@@ -286,7 +286,7 @@ export default function DashboardShowcase() {
             </div>
 
             {/* Stats */}
-            <div className="grid grid-cols-3 gap-4 mt-10 pt-8 border-t border-white/08">
+            <div className="grid grid-cols-3 gap-2 sm:gap-4 mt-10 pt-8 border-t border-white/08">
               {[
                 { value: "2,400+", label: "Active families" },
                 { value: "4.9★", label: "App store rating" },

@@ -233,7 +233,7 @@ export default function Hero() {
             initial={{ opacity: 0, scale: 0.92, y: 20 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             transition={{ delay: 0.3, duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-            className="relative animate-float"
+            className="relative animate-float mt-8 lg:mt-0"
           >
             {/* Main dashboard card */}
             <div className="relative glass-dark rounded-3xl p-6 shadow-2xl border border-white/08">
@@ -254,7 +254,7 @@ export default function Hero() {
               </div>
 
               {/* Vital cards row */}
-              <div className="grid grid-cols-3 gap-3 mb-6">
+              <div className="grid grid-cols-3 gap-2 mb-6">
                 {[
                   {
                     icon: Droplets,
@@ -359,7 +359,7 @@ export default function Hero() {
               initial={{ opacity: 0, x: 20, y: 10 }}
               animate={{ opacity: 1, x: 0, y: 0 }}
               transition={{ delay: 1, duration: 0.5 }}
-              className="absolute -bottom-6 -left-8 glass-dark border border-white/08 rounded-2xl p-4 shadow-xl w-56"
+              className="hidden sm:block absolute -bottom-6 -left-8 glass-dark border border-white/08 rounded-2xl p-4 shadow-xl w-56"
             >
               <div className="flex items-start gap-3">
                 <div className="w-8 h-8 rounded-xl bg-amber-500/20 border border-amber-500/30 flex items-center justify-center flex-shrink-0">
@@ -378,7 +378,7 @@ export default function Hero() {
               initial={{ opacity: 0, x: -20, y: -10 }}
               animate={{ opacity: 1, x: 0, y: 0 }}
               transition={{ delay: 1.2, duration: 0.5 }}
-              className="absolute -top-6 -right-6 glass-dark border border-white/08 rounded-2xl p-4 shadow-xl w-48"
+              className="hidden sm:block absolute -top-6 -right-6 glass-dark border border-white/08 rounded-2xl p-4 shadow-xl w-48"
             >
               <p className="text-xs font-semibold text-white mb-3">Family Connected</p>
               <div className="flex flex-col gap-2">

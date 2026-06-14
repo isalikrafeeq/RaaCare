@@ -42,7 +42,7 @@ export default function Footer() {
     <footer className="relative border-t border-white/07 bg-[#060718]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-8">
         {/* Top grid */}
-        <div className="grid grid-cols-2 lg:grid-cols-6 gap-10 mb-14">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-10 mb-14">
           {/* Brand column */}
           <div className="col-span-2">
             {/* Logo */}
